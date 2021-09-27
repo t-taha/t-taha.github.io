@@ -8,45 +8,40 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,300,400,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,400,500,600,700">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
-<script type="text/javascript">
-//<![CDATA[
-var owa_baseUrl = 'https://ulysses.systems/analytics/';
-var owa_cmds = owa_cmds || [];
-owa_cmds.push(['setSiteId', '8a47cdcc3842a56175fd1c013497dc64']);
-owa_cmds.push(['trackPageView']);
-owa_cmds.push(['trackClicks']);
-owa_cmds.push(['trackDomStream']);
-
-(function() {
-    var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
-    owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl );
-    _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
-    var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
-}());
-//]]>
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//ulysses.systems/analytics/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
 </head>
 
 <body style="width: 100%;color: rgb(255,255,255);font-family: 'Josefin Sans', sans-serif;background: linear-gradient(4deg, black, rgb(45,45,45));height: 100%;">
     <div class="b-trig" style="padding: 10px;">
-        <div class="d-flex justify-content-xl-start align-items-xl-start" data-aos="slide-up" data-aos-delay="1000" id="b-div">
-            <div class="d-inline-block l-trig" style="height: 48px;position: relative;z-index: 1;">
-                <h2 class="d-inline-block" style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 5px;margin-right: 10px;margin-left: 5px;"><strong>P</strong>ortfolio<br></h2>
-                <div class="b-div"></div>
-            </div><a href="#about" style="color: rgb(255,255,255);">
+        <div class="d-flex justify-content-xl-start align-items-xl-start" data-aos="slide-up" data-aos-delay="1000" id="b-div"><a href="#portfolio" style="color: rgb(255,255,255);margin-bottom: -2px;">
+                <div class="d-inline-block l-trig" style="height: 48px;position: relative;z-index: 1;">
+                    <h2 class="d-inline-block" style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 5px;margin-right: 10px;margin-left: 5px;"><strong>P</strong>ortfolio<br></h2>
+                    <div class="b-div"></div>
+                </div>
+            </a><a href="#about" style="color: rgb(255,255,255);margin-bottom: -2px;">
                 <div class="d-inline-block l-trig" style="height: 48px;position: relative;z-index: 1;">
                     <h2 class="d-inline-block" style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 5px;margin-right: 10px;margin-left: 5px;"><strong>C</strong>ontact<br></h2>
                     <div class="b-div"></div>
                 </div>
-            </a>
-        </div>
+            </a></div>
     </div>
     <div style="height: 100%;width: 100%;">
-        <div class="d-table" style="width: 100%;height: 100%;padding-right: 5%;padding-left: 5%;">
+        <div class="d-table" id="portfolio" style="width: 100%;height: 100%;padding-right: 5%;padding-left: 5%;">
             <div class="container d-table-cell" style="margin-top: 20%;vertical-align: middle;">
                 <div class="row" style="margin-bottom: 5%;">
                     <div class="col-md-12 col-lg-12 col-xl-12">
@@ -73,7 +68,7 @@ owa_cmds.push(['trackDomStream']);
                                 <h1 style="font-size: 63px;font-weight: 700;margin-bottom: -12px;transition: 0.5s;margin-right: 10px;">Bratmun</h1>
                                 <div class="d-line"></div>
                             </div>
-                            <h2 class="d-desc" style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 10px;"><strong>Duration:</strong><br>2019-2020<br><strong>Programming:</strong><br>- Javascript, JQuery, PHP, MySQL<br><strong>Design:</strong><br>- Photoshop, Illustrator</h2><a href="assets/img/card-v2.jpg" style="color: rgb(255,255,255);">
+                            <h2 class="d-desc" style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 10px;"><strong>Duration:</strong><br>2019-2020<br><strong>Programming:</strong><br>- Javascript, JQuery, PHP, MySQL<br><strong>Design:</strong><br>- Photoshop, Illustrator</h2><a href="https://web.archive.org/web/20210506145059/https%3A%2F%2Fwww.bratmun.sk%2F" style="color: rgb(255,255,255);">
                                 <div class="text-right l-trig d-but">
                                     <div class="d-inline-block" style="height: 48px;position: relative;z-index: 1;">
                                         <h2 class="d-inline-block" style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 5px;margin-right: 10px;margin-left: 5px;"><strong>Preview</strong><br></h2>
@@ -91,7 +86,7 @@ owa_cmds.push(['trackDomStream']);
                                 <h1 style="font-size: 63px;font-weight: 700;margin-bottom: -12px;transition: 0.5s;margin-right: 10px;">Persian Carpet</h1>
                                 <div class="d-line"></div>
                             </div>
-                            <h2 class="d-desc" style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 10px;"><strong>Duration:</strong><br>2020-2021<br><strong>Programming:</strong><br>- Javascript, JQuery<br><strong>Design:</strong><br>- Photoshop, Illustrator</h2><a href="assets/img/card-v2.jpg" style="color: rgb(255,255,255);">
+                            <h2 class="d-desc" style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 10px;"><strong>Duration:</strong><br>2020-2021<br><strong>Programming:</strong><br>- Javascript, JQuery<br><strong>Design:</strong><br>- Photoshop, Illustrator</h2><a href="https://perzskykoberec.sk/" style="color: rgb(255,255,255);">
                                 <div class="text-right l-trig d-but">
                                     <div class="d-inline-block" style="height: 48px;position: relative;z-index: 1;">
                                         <h2 class="d-inline-block" style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 5px;margin-right: 10px;margin-left: 5px;"><strong>Preview</strong><br></h2>
@@ -108,15 +103,17 @@ owa_cmds.push(['trackDomStream']);
         <div style="background: linear-gradient(96deg, rgb(22,22,22), rgb(65,65,65));">
             <div class="justify-content-xl-start align-items-xl-center" style="width: 100%;color: rgb(0,0,0);padding: 20px;">
                 <div class="d-inline-block" style="color: rgb(255,255,255);">
-                    <h1 class="d-inline-block" style="font-weight: 1000;font-size: 8vw;transition: 0.5s;vertical-align: middle;margin-bottom: 50px;margin-right: 10px;margin-left: 10px;">2D Design</h1>
+                    <h1 class="d-inline-block" style="font-weight: 1000;font-size: 8vw;transition: 0.5s;vertical-align: middle;margin-bottom: 50px;margin-right: 10px;margin-left: 10px;">Gallery</h1>
                 </div>
             </div>
             <div class="container" style="margin-top: 5%;">
                 <div class="row" style="margin-bottom: 10%;color: rgb(255,255,255);">
-                    <div class="col-md-6 col-xl-10">
+                    <div class="col-md-12 col-lg-12 col-xl-12 col-photo">
                         <div data-aos="fade-right" class="d-div" style="color: rgb(255,255,255);padding: 10px;background: linear-gradient(-90deg, rgb(39,39,39) 0%, rgb(9,9,9) 64%);border-radius: 10px;">
-                            <h1 style="font-size: 63px;font-weight: 700;margin-bottom: -12px;transition: 0.5s;">Bratmun</h1>
-                            <div style="border-bottom-width: 3px;border-bottom-style: solid;width: 50%;color: rgba(255,255,255,0.4);margin-bottom: 10px;"></div>
+                            <div class="d-inline-block">
+                                <h1 style="font-size: 63px;font-weight: 700;margin-bottom: -12px;transition: 0.5s;margin-right: 10px;">Bratmun</h1>
+                                <div class="d-line"></div>
+                            </div>
                             <section class="photo-gallery" style="background: transparent;color: rgb(255,255,255);">
                                 <div class="container">
                                     <div class="row photos">
@@ -129,46 +126,28 @@ owa_cmds.push(['trackDomStream']);
                             </section>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-1">
-                        <div class="d-flex" data-aos="fade-up" data-aos-delay="500" style="color: rgb(255,255,255);padding: 0;background: linear-gradient(90deg, rgb(39,39,39) 0%, rgb(9,9,9) 64%);border-radius: 10px;text-align: center;height: 100%;justify-content: center;padding-top: 10px;">
-                            <h1 style="font-size: 18px;writing-mode: vertical-rl;margin: 0;margin-right: -24px;">2019-2020</h1><i class="fa fa-calendar d-title" style="font-size: 40px;"></i>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-1">
-                        <div class="d-flex" data-aos="fade-up" data-aos-delay="600" style="color: rgb(255,255,255);padding: 0;background: linear-gradient(90deg, rgb(39,39,39) 0%, rgb(9,9,9) 64%);border-radius: 10px;text-align: center;height: 100%;justify-content: center;padding-top: 10px;">
-                            <h1 style="font-size: 18px;writing-mode: vertical-rl;margin: 0;margin-right: -24px;">Preview</h1><i class="fa fa-link d-title" style="font-size: 40px;"></i>
-                        </div>
-                    </div>
                 </div>
                 <div class="row" style="margin-bottom: 10%;color: rgb(255,255,255);">
-                    <div class="col-md-6 col-xl-10">
+                    <div class="col-md-12 col-lg-12 col-xl-12 col-photo">
                         <div data-aos="fade-right" class="d-div" style="color: rgb(255,255,255);padding: 10px;background: linear-gradient(-90deg, rgb(39,39,39) 0%, rgb(9,9,9) 64%);border-radius: 10px;">
-                            <h1 style="font-size: 63px;font-weight: 700;margin-bottom: -12px;transition: 0.5s;">Persian Carpet</h1>
-                            <div style="border-bottom-width: 3px;border-bottom-style: solid;width: 50%;color: rgba(255,255,255,0.4);margin-bottom: 10px;"></div>
+                            <div class="d-inline-block">
+                                <h1 style="font-size: 63px;font-weight: 700;margin-bottom: -12px;transition: 0.5s;margin-right: 10px;">Persian Carpet</h1>
+                                <div class="d-line"></div>
+                            </div>
                             <section class="photo-gallery" style="background: transparent;color: rgb(255,255,255);">
                                 <div class="container">
                                     <div class="row photos">
-                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/blog-thumbnail-HQ.jpg"><img class="img-fluid" src="assets/img/social-profile.png"></a></div>
-                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Bratmun-m1t2.jpg"><img class="img-fluid" src="assets/img/g-ad1.jpg"></a></div>
-                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Snapshot3.png"><img class="img-fluid" src="assets/img/club-card-f.png"></a></div>
-                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Snapshot3.png"><img class="img-fluid" src="assets/img/card-v2.jpg"></a></div>
-                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Snapshot3.png"><img class="img-fluid" src="assets/img/g-ad3.jpg"></a></div>
-                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Snapshot3.png"><img class="img-fluid" src="assets/img/Snapshot5.png"></a></div>
-                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Snapshot2.png"><img class="img-fluid" src="assets/img/g-ad2.jpg"></a></div>
-                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Snapshot3.png"><img class="img-fluid" src="assets/img/Screenshot_20210914_093559.png"></a></div>
+                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/social-profile.png"><img class="img-fluid" src="assets/img/social-profile.png"></a></div>
+                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/club-card-f.png"><img class="img-fluid" src="assets/img/club-card-f.png"></a></div>
+                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/card-v2.jpg"><img class="img-fluid" src="assets/img/card-v2.jpg"></a></div>
+                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Snapshot5.png"><img class="img-fluid" src="assets/img/Snapshot5.png"></a></div>
+                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/card-b1.jpg"><img class="img-fluid" src="assets/img/card-b1.jpg"></a></div>
+                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/card-b2.jpg"><img class="img-fluid" src="assets/img/card-b2.jpg"></a></div>
+                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/card-b3.jpg"><img class="img-fluid" src="assets/img/card-b3.jpg"></a></div>
+                                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/Screenshot_20210914_093559.png"><img class="img-fluid" src="assets/img/Screenshot_20210914_093559.png"></a></div>
                                     </div>
                                 </div>
                             </section>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-1">
-                        <div class="d-flex" data-aos="fade-up" data-aos-delay="500" style="color: rgb(255,255,255);padding: 0;background: linear-gradient(90deg, rgb(39,39,39) 0%, rgb(9,9,9) 64%);border-radius: 10px;text-align: center;height: 100%;justify-content: center;padding-top: 10px;">
-                            <h1 style="font-size: 18px;writing-mode: vertical-rl;margin: 0;margin-right: -24px;">2019-2020</h1><i class="fa fa-calendar d-title" style="font-size: 40px;"></i>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-1">
-                        <div class="d-flex" data-aos="fade-up" data-aos-delay="600" style="color: rgb(255,255,255);padding: 0;background: linear-gradient(90deg, rgb(39,39,39) 0%, rgb(9,9,9) 64%);border-radius: 10px;text-align: center;height: 100%;justify-content: center;padding-top: 10px;">
-                            <h1 style="font-size: 18px;writing-mode: vertical-rl;margin: 0;margin-right: -24px;">Preview</h1><i class="fa fa-link d-title" style="font-size: 40px;"></i>
                         </div>
                     </div>
                 </div>
@@ -185,16 +164,21 @@ owa_cmds.push(['trackDomStream']);
                 <div class="row row-cols-1" style="margin-bottom: 10%;color: rgb(255,255,255);">
                     <div class="col-auto col-sm-12 col-md-12 col-xl-12">
                         <div data-aos="fade-right" class="d-div" style="color: rgb(255,255,255);padding: 10px;background: linear-gradient(-90deg, rgb(52,52,52) 0%, rgb(32,32,32));border-radius: 10px;">
-                            <h1 style="font-size: 63px;font-weight: 700;margin-bottom: -12px;transition: 0.5s;">Contact</h1>
-                            <div style="border-bottom-width: 3px;border-bottom-style: solid;width: 50%;color: rgba(255,255,255,0.4);"></div>
-                            <h2 style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 10px;"><strong>Languages:</strong><br>English - Native<br>Persian - Native<br>German - Fluent<br>Slovak - Conversational</h2>
-                            <h2 style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 10px;"><strong>Email:</strong><br></h2>
-                            <div class="l-trig">
-                                <div class="d-inline-block" style="height: 48px;position: relative;z-index: 1;">
-                                    <h2 class="d-inline-block" style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 5px;margin-right: 10px;margin-left: 5px;">to.taha@protonmail.com<br></h2>
-                                    <div class="l-div"></div>
-                                </div>
+                            <div class="d-inline-block">
+                                <h1 style="font-size: 63px;font-weight: 700;margin-bottom: -12px;transition: 0.5s;margin-right: 10px;">Taha Torabpour</h1>
+                                <div class="d-line"></div>
                             </div>
+                            <h2 style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 10px;"><strong>Languages:&nbsp;</strong>English, Persian, German,&nbsp;Slovak</h2>
+                            <h2 style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 10px;"><strong>Programming: </strong>Javascript, JQuery, PHP, VB.net, C#, Java</h2>
+                            <h2 style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 10px;"><strong>Software: </strong>Adobe Creative Suite, Krita, Gimp, MS Office Suite, Libreoffice, Unity, Unreal Engine</h2>
+                            <h2 class="d-inline-block" style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 10px;"><strong>Contact me:</strong><br></h2><a class="d-inline-block" href="mailto:to.taha@protonmail.com" style="color: rgb(255,255,255);">
+                                <div class="l-trig">
+                                    <div class="d-inline-block" style="height: 48px;position: relative;z-index: 1;">
+                                        <h2 class="d-inline-block" style="font-size: 30px;transition: 0.5s;font-weight: 300;font-family: 'Josefin Sans', sans-serif;margin-top: 5px;margin-right: 10px;margin-left: 5px;">to.taha@protonmail.com<br></h2>
+                                        <div class="l-div"></div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
